@@ -1,4 +1,10 @@
 // step 1, identify the ID of the person
+pub struct PersonStats {
+    pub given_name: String,
+    pub surname: String,
+    pub gender: String,
+    pub id: String,
+}
     //step 1.1, what would be ID on .ged file?
     //step 1.2, gedcom.rs parses the id
 // step 2, sort the name into distinct boxes, Given name, Surname, Prefix and SUffix
